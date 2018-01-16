@@ -1,0 +1,19 @@
+package edu.fju.exam;
+
+public class Manager extends Employee {
+
+	public Manager(int amount) {
+		
+		super(amount);
+		
+	int bouns = 5000;
+		 
+	
+	}
+	public void print(){
+		int total = (int)(amount+(bouns));
+		System.out.println(amount+"\t"+bouns);
+	}
+
+	
+}

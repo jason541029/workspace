@@ -1,0 +1,29 @@
+package edu.fju.exam;
+import java.util.ArrayList;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		ArrayList<Employee> employees = new ArrayList<>();
+		employees.add(new Employee(25000));
+		employees.add(new Employee(28000));
+		employees.add(new Manager(40000));
+		employees.add(new Director(50000));
+		employees.add(new Employee(31000));
+		employees.add(new Manager(47000));
+		employees.add(new Director(70000));
+		for (int i=0; i<employees.size(); i++){
+		   employees.get(i).print();
+		}
+		ArrayList<Integer> list= new ArrayList<>();
+		
+	
+		System.out.println(list.get(1));
+		System.out.println(list.size());
+		
+		for (int i=0; i<list.size(); i++){
+			System.out.println(list.get(i));
+		}
+	}
+
+}
